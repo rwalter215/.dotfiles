@@ -20,6 +20,8 @@ antigen theme spaceship-prompt/spaceship-prompt
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ls="ls -al"
+
 antigen apply
 
 # source $HOME/.zsh_profile
