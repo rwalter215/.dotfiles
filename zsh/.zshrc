@@ -20,9 +20,9 @@ antigen theme spaceship-prompt/spaceship-prompt
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls="ls -al"
 
 antigen apply
 
+alias ls="ls -al"
 # source $HOME/.zsh_profile
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
